@@ -1,0 +1,25 @@
+{
+  "name": "prismic-static-blog-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.3.0",
+    "@prismicio/client": "^7.18.0",
+    "@prismicio/helpers": "^2.3.9",
+    "@tailwindcss/vite": "^4.1.13",
+    "astro": "^5.13.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^5.9.2"
+  }
+}
